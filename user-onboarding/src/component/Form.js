@@ -68,7 +68,7 @@ const NewForm = ({ values, errors, touched, status }) => {
             <p className terms="errors">{errors.terms}</p>
             )}
           </label>
-          <button>Join Now!</button>
+          <button>Join the Battle!</button>
         </Form>
         {info.map(information => (
           <ul key={information.id}>
